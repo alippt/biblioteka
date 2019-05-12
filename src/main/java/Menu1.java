@@ -15,7 +15,7 @@ public class Menu1 {
         do {
             System.out.println ( "1. Wyświetl liste ksiązek" );
             System.out.println ( "2. Wyjdź" );
-            option = scanner.nextInt ();
+            option = Integer.parseInt ( scanner.nextLine () );
             switch (option) {
                 case 1:
                     BookList.readBookList ();
