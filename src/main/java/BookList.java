@@ -55,7 +55,23 @@ public class BookList {
     }
 
     static void editBook() {
-        System.out.println ( "edytuj książke" );
+        String toEdit = "pusty";
+        System.out.println ( "Podaj tytuł książki, którą chcesz edytować" );
+        toEdit = scanner.nextLine ();
+        int index = -1;
+        for (int i = 0; i < bookList.size (); i++) {
+            Book book = bookList.get ( i );
+            if (book.getTitle ().equals ( toEdit )) { //gdy to mi pasuje przypisuje indeks tej książki do zmiennej index
+                index = i;
+            }
+        }
+        System.out.println ("zmień rok wydania"); //TODO działa do wczytania roku, później coś wywala
+        String newYear= "pusty";
+        newYear = scanner.nextLine ();
+//        Book bookToEdit= bookList.get ( index );
+//        bookToEdit.setYear (newYear); //zmiana poza forem bo nie mogę zmienić podczas przechodzenia przez pętlę
+//        System.out.println ( "jeśli chcesz zachować te zmiany wybierz 4" );
+
     }
 
     static void writeListOfBook() throws IOException {
