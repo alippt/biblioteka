@@ -3,6 +3,6 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        Menu1.menu ();
+        Menu1.menu();
     }
 }
