@@ -5,13 +5,13 @@ import static org.apache.commons.lang3.StringUtils.isNumeric;
 public class Menu {
     static Scanner scanner = new Scanner ( System.in );
 
-static String cos;
+static String numericOrText;
     static void menu()  {
 
         System.out.println ( "1. Wyświetl liste ksiązek" );
         System.out.println ( "2. Wyjdź" );
-        cos = scanner.nextLine ();
-        if (isNumeric ( cos )) {
+        numericOrText = scanner.nextLine ();
+        if (isNumeric ( numericOrText )) {
             userChoice ();
         }else {
             System.out.println ("Wybierz liczbę 1 lub 2");
@@ -20,7 +20,7 @@ static String cos;
     }
 
     static void userChoice() {
-        int option= Integer.parseInt ( cos );
+        int option= Integer.parseInt ( numericOrText );
         while (option != 2) {
             switch (option) {
                 case 1:
