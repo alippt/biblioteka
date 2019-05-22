@@ -5,27 +5,32 @@ import java.util.Scanner;
 
 public class BookList {
 
-    static Scanner scanner = new Scanner(System.in);
+    static Scanner scanner = new Scanner ( System.in );
     static String addedBook;
-    static List<Book> bookList = new ArrayList<Book>();
+    static List<Book> bookList = new ArrayList<Book> ();
 
-    public static void readBookList() throws IOException {
-        BufferedReader readList = new BufferedReader(new FileReader("C:/Users/Bartosz_T.BPPWL_W_LODZI/Desktop/JAVA/biblioteka/books.csv")); //TODO ścieżka pliku
+    public static void readBookList() {
+        try {
+            BufferedReader readList = new BufferedReader ( new FileReader ( "C:/Users/ABMtr/Desktop/JAva sda/Księgarnia/biblioteka/books.csv" ) ); //TODO ścieżka pliku
 
-        String textLine = readList.readLine();
+            String textLine = readList.readLine ();
 
-        do {
-            String[] split = textLine.split(";");
-            String title = split[0];
-            String ISBN = split[1];
-            String year = split[2];
-            System.out.println(title + " " + year + " " + ISBN);
-            Book book = new Book(title, year, ISBN);
-            bookList.add(book);
-            textLine = readList.readLine();
-        } while (textLine != null);
-        readList.close();
-        bookMenu();
+            System.out.println ( "niewłaściwa ścieżka" );
+            do {
+                String[] split = textLine.split ( ";" );
+                String title = split[0];
+                String ISBN = split[1];
+                String year = split[2];
+                System.out.println ( title + " " + year + " " + ISBN );
+                Book book = new Book ( title, year, ISBN );
+                bookList.add ( book );
+                textLine = readList.readLine ();
+            } while (textLine != null);
+            readList.close ();
+            bookMenu ();
+        }catch (IOException e){
+            System.out.println ("sprawdz sciezke");
+        }
     }
 
     static void addBook() {
@@ -74,23 +79,27 @@ public class BookList {
 
     }
 
-    static void writeListOfBook() throws IOException {
-        BufferedWriter writeListOfBook = new BufferedWriter(new FileWriter("C:/Users/Bartosz_T.BPPWL_W_LODZI/Desktop/JAVA/biblioteka/books.csv"));
-        for (Book book : bookList) {
-            String line = ((book.getTitle()) + ";" + (book.getISBN()) + ";" + (book.getYear()));
-            writeListOfBook.write(line);
-            writeListOfBook.newLine();
-        }
+    static void writeListOfBook() {
+        try {
+            BufferedWriter writeListOfBook = new BufferedWriter ( new FileWriter ( "C:/Users/Bartosz_T.BPPWL_W_LODZI/Desktop/JAVA/biblioteka/books.csv" ) );
+            for (Book book : bookList) {
+                String line = ((book.getTitle ()) + ";" + (book.getISBN ()) + ";" + (book.getYear ()));
+                writeListOfBook.write ( line );
+                writeListOfBook.newLine ();
+            }
 //        for (int i = 0; i < bookList.size (); i++) {
 //            Book book = bookList.get ( i );
 //            String line = ((book.getTitle ()) + ";" + (book.getISBN ()) + ";" + (book.getYear ()));
 //            writeListOfBook.write ( line );
 //            writeListOfBook.newLine ();
 //        }
-        writeListOfBook.close();
+            writeListOfBook.close ();
+        } catch (IOException e) {
+            System.out.println ( "sprawdz sciezke" );
+        }
     }
 
-    public static void bookMenu() throws IOException {
+    public static void bookMenu()  {
         int option;
 
         do {
