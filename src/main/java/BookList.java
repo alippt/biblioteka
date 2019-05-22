@@ -70,7 +70,7 @@ public class BookList {
                 System.out.println("jeśli chcesz zapisać te zmiany wybierz 4");
             } else {
                 System.out.println("nie ma takiej książki"); //leci dla każdej gdzie nie ma //TODO zrobić żeby komunikat był tylko raz
-                Menu.menu();
+                Menu.menu(); //wracamy do menu ha ha ha ha
             }
         }
     }
