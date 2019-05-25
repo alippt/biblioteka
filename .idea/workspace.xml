@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57b9d814-2732-4ff3-a119-33fab9c7dd04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BookFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BookFunctionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BookList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BookList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BookList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BookFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BookFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BookFunctionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BookFunctionsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,19 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="270">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,21 +36,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BookList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="22" column="34" selection-start-line="19" selection-start-column="16" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="391">
+              <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#252#258#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/NumberFormatException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -69,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Integer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12834">
+            <state relative-caret-position="9486">
               <caret line="591" column="40" selection-start-line="591" selection-start-column="40" selection-end-line="591" selection-end-column="40" />
             </state>
           </provider>
@@ -78,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/BufferedWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4485">
+            <state relative-caret-position="3315">
               <caret line="220" column="12" selection-start-line="220" selection-start-column="12" selection-end-line="220" selection-end-column="12" />
             </state>
           </provider>
@@ -87,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/Writer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3013">
+            <state relative-caret-position="2227">
               <caret line="156" column="8" selection-start-line="156" selection-start-column="8" selection-end-line="156" selection-end-column="8" />
             </state>
           </provider>
@@ -96,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
+            <state relative-caret-position="255">
               <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding>
                 <element signature="e#247#248#0" expanded="true" />
@@ -119,8 +98,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BookFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="95" column="20" lean-forward="true" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,11 +112,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/BookFunctionsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            <state relative-caret-position="386">
+              <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -156,7 +149,10 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -167,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/BookList.java" />
         <option value="$PROJECT_DIR$/src/main/java/Menu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ZadaniaStreamForEach.java" />
         <option value="$PROJECT_DIR$/src/main/java/BookFunctions.java" />
         <option value="$PROJECT_DIR$/src/main/java/BookFunctionsTest.java" />
       </list>
@@ -191,9 +188,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1300" />
-    <option name="width" value="620" />
-    <option name="height" value="1084" />
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -230,8 +227,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,6 +236,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558533045389" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -252,28 +250,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookFunctionsTest.findISBN">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.BookFunctionsTest.findMaxYearBookStream">
+    <configuration name="BookFunctionsTest.findMaxYearBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteka" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BookFunctionsTest" />
+      <option name="METHOD_NAME" value="findMaxYearBook" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookFunctionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookFunctionsTest.findMaxYearBookStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteka" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BookFunctionsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="findMaxYearBookStream" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookFunctionsTest.findISBN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookFunctionsTest.findMinYearBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteka" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BookFunctionsTest" />
-      <option name="METHOD_NAME" value="findISBN" />
+      <option name="METHOD_NAME" value="findMinYearBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookFunctionsTest.findMinYearBookStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteka" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BookFunctionsTest" />
+      <option name="METHOD_NAME" value="findMinYearBookStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookFunctionsTest.findTwoLastBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteka" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BookFunctionsTest" />
+      <option name="METHOD_NAME" value="findTwoLastBook" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -281,9 +303,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BookFunctionsTest.findISBN" />
-        <item itemvalue="JUnit.BookFunctionsTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BookFunctionsTest.findMaxYearBookStream" />
+        <item itemvalue="JUnit.BookFunctionsTest.findMaxYearBook" />
+        <item itemvalue="JUnit.BookFunctionsTest.findMinYearBookStream" />
+        <item itemvalue="JUnit.BookFunctionsTest.findMinYearBook" />
+        <item itemvalue="JUnit.BookFunctionsTest.findTwoLastBook" />
       </list>
     </recent_temporary>
   </component>
@@ -323,23 +347,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookFunctionsTest - 2019.05.22 at 15h 46m 36s.xml">
-      <configuration name="BookFunctionsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookFunctionsTest - 2019.05.22 at 15h 47m 23s.xml">
-      <configuration name="BookFunctionsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookFunctionsTest - 2019.05.22 at 15h 48m 00s.xml">
-      <configuration name="BookFunctionsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookFunctionsTest_findISBN - 2019.05.22 at 15h 48m 17s.xml">
+    <history-entry file="BookFunctionsTest_findISBN - 2019.05.25 at 11h 59m 34s.xml">
       <configuration name="BookFunctionsTest.findISBN" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookFunctionsTest_findISBN - 2019.05.22 at 15h 49m 30s.xml">
+    <history-entry file="BookFunctionsTest_findISBN - 2019.05.25 at 12h 05m 19s.xml">
       <configuration name="BookFunctionsTest.findISBN" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookFunctionsTest - 2019.05.22 at 15h 49m 58s.xml">
-      <configuration name="BookFunctionsTest" configurationId="JUnit" />
+    <history-entry file="BookFunctionsTest_findISBN - 2019.05.25 at 12h 13m 35s.xml">
+      <configuration name="BookFunctionsTest.findISBN" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookFunctionsTest_findISBNStream - 2019.05.25 at 12h 48m 06s.xml">
+      <configuration name="BookFunctionsTest.findISBNStream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookFunctionsTest_findTwoLastBook - 2019.05.25 at 12h 56m 35s.xml">
+      <configuration name="BookFunctionsTest.findTwoLastBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookFunctionsTest_findMinYearBook - 2019.05.25 at 14h 03m 44s.xml">
+      <configuration name="BookFunctionsTest.findMinYearBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookFunctionsTest_findMinYearBookStream - 2019.05.25 at 14h 19m 04s.xml">
+      <configuration name="BookFunctionsTest.findMinYearBookStream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookFunctionsTest_findMaxYearBook - 2019.05.25 at 14h 22m 09s.xml">
+      <configuration name="BookFunctionsTest.findMaxYearBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookFunctionsTest_findMaxYearBook - 2019.05.25 at 14h 23m 25s.xml">
+      <configuration name="BookFunctionsTest.findMaxYearBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookFunctionsTest_findMaxYearBookStream - 2019.05.25 at 14h 26m 00s.xml">
+      <configuration name="BookFunctionsTest.findMaxYearBookStream" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -352,10 +388,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20877458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -364,15 +399,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3080125" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31078905" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32882413" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32983193" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.06555671" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.516129" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.093397744" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.5152979" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -407,54 +442,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
+        <state relative-caret-position="629">
           <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12834">
+        <state relative-caret-position="9486">
           <caret line="591" column="40" selection-start-line="591" selection-start-column="40" selection-end-line="591" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/BufferedWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4485">
+        <state relative-caret-position="3315">
           <caret line="220" column="12" selection-start-line="220" selection-start-column="12" selection-end-line="220" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3013">
+        <state relative-caret-position="2227">
           <caret line="156" column="8" selection-start-line="156" selection-start-column="8" selection-end-line="156" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
+        <state relative-caret-position="255">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
             <element signature="e#247#248#0" expanded="true" />
@@ -473,28 +498,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BookList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="22" column="34" selection-start-line="19" selection-start-column="16" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="270">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#252#258#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BookList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ZadaniaStreamForEach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BookFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="323">
+          <caret line="95" column="20" lean-forward="true" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BookFunctionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        <state relative-caret-position="386">
+          <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
