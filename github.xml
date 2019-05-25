@@ -1,7 +1,0 @@
-<application>
-  <component name="GithubAccounts">
-    <account id="6a4e45ee-d85e-463d-9c2d-b1bff7aa056e" name="alippt">
-      <server host="github.com" />
-    </account>
-  </component>
-</application>
