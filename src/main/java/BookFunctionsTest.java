@@ -49,7 +49,13 @@ public class BookFunctionsTest {
         Assert.assertEquals(bookListTest.subList(4, 5), sub);
     }
     //zad2 Stream
-    //
+    @Test
+    public void findTwoLastBookStream(){
+        List<Book>subL = BookFunctions.findTwoLastBookStream(bookListTest);
+//        Assert.assertTrue(subL.get(4).getTitle().equals("Piąta"));
+        Assert.assertEquals(bookListTest.subList(4,5), subL);
+//        Assert.assertTrue(bookListTest.subList(4,5).equals(subL));
+    }
 
     //zad3
     @Test

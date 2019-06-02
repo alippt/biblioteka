@@ -1,6 +1,7 @@
 import java.util.List;
 import java.util.Optional;
 import java.util.Comparator;
+import java.util.stream.Collectors;
 
 import static org.codehaus.groovy.runtime.DefaultGroovyMethods.collect;
 
@@ -37,14 +38,14 @@ public class BookFunctions extends Book {
     }
 
     //zad2 Stream
-//    public static List<Book> findTwoLastBookStream(List<Book>bookList){
-//        List<Book> listBook = bookList.stream()
-//                .filter(e->bookList.subList(bookList.size()-1,bookList.size()-2))  // FK! NIE WIEM JAK TO Zrobic
-//                .collect(Collectors.toList());
-//
-//        return listBook;
-//    }
-//
+    public static List<Book> findTwoLastBookStream(List<Book> bookList) {
+        List<Book> listBook = bookList.stream()
+                .filter(e -> e.getTitle().equals(bookList.subList((bookList.size() - 2), (bookList.size() - 1))))  // FK! NIE WIEM JAK TO Zrobic
+                .collect(Collectors.toList());
+        return listBook;
+    }
+
+    //
     //zad 3
     public static Book minYearBook(List<Book> bookList) {
         Book book;
@@ -87,6 +88,7 @@ public class BookFunctions extends Book {
         return book;
 
     }
+
     //zad 4 stream
     public static Optional<Book> maxYearBookStream(List<Book> bookList) {
 
