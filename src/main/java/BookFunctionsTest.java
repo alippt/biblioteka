@@ -48,12 +48,13 @@ public class BookFunctionsTest {
         List<Book> sub = BookFunctions.findTwoLastBook(bookListTest);
         Assert.assertEquals(bookListTest.subList(4, 5), sub);
     }
+
     //zad2 Stream
     @Test
-    public void findTwoLastBookStream(){
-        List<Book>subL = BookFunctions.findTwoLastBookStream(bookListTest);
+    public void findTwoLastBookStream() {
+        List<Book> subL = BookFunctions.findTwoLastBookStream(bookListTest);
 //        Assert.assertTrue(subL.get(4).getTitle().equals("Piąta"));
-        Assert.assertEquals(bookListTest.subList(4,5), subL);
+        Assert.assertEquals(bookListTest.subList(4, 5), subL);
 //        Assert.assertTrue(bookListTest.subList(4,5).equals(subL));
     }
 
@@ -70,23 +71,61 @@ public class BookFunctionsTest {
         Optional<Book> book = BookFunctions.minYearBookStream(bookListTest);
         Assert.assertEquals("Piąta", book.get().getTitle());
     }
+
     //zad 4
     @Test
     public void findMaxYearBook() {
         Book book = BookFunctions.maxYearBook(bookListTest);
         Assert.assertEquals("Szósta", book.getTitle());
     }
+
     //zad 4 stream
     @Test
-    public void findMaxYearBookStream(){
-        Optional<Book> book= BookFunctions.maxYearBookStream(bookListTest);
+    public void findMaxYearBookStream() {
+        Optional<Book> book = BookFunctions.maxYearBookStream(bookListTest);
         Assert.assertEquals("Szósta", book.get().getTitle());
     }
-    //zad 5
+
+    // zad 5
     @Test
-    public void allBooksAfterYear(){
-        boolean allBooksAfterYear = BookFunctions.allBooksAfterYear(bookListTest, 2000);
-        Assert.assertFalse("are all books after" , allBooksAfterYear);
+    public void sumYearsOfBooks() {
+        int sum = BookFunctions.sumAllYears(bookListTest);
+        Assert.assertEquals(12018, sum);
     }
-    //zad 5
+
+    //zad 5 stream
+    @Test
+    public void sumYearsOfBooksStream() {
+        int sum = BookFunctions.sumAllYearsStream(bookListTest);
+        Assert.assertEquals(12018, sum);
+    }
+
+    //zad 6
+    @Test
+    public void numberOfBooksAfterYear() {
+        long number = BookFunctions.numberOfBooksAfterYear(bookListTest, 2007);
+        Assert.assertEquals(2, number);
+    }
+
+    //zad 6 stream
+    @Test
+    public void numberOfBooksAfterYearStream() {
+        long number = BookFunctions.numberOfBooksAfterYearStream(bookListTest, 2007);
+        Assert.assertEquals(2, number);
+    }
+
+    //zad 7
+    @Test
+    public void allBooksAfterYear() {
+        boolean allBooksAfterYear = BookFunctions.allBooksAfterYear(bookListTest, 2000);
+        Assert.assertFalse("are all books after", allBooksAfterYear);
+    }
+
+    //zad 7 stream
+    @Test
+    public void allBooksAfterYearStream() {
+        boolean allBooksAfterYear = BookFunctions.allBooksAfterYearStream(bookListTest, 2000);
+        Assert.assertFalse("books after year", allBooksAfterYear);
+    }
+
 }
