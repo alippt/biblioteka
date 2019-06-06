@@ -82,4 +82,11 @@ public class BookFunctionsTest {
         Optional<Book> book= BookFunctions.maxYearBookStream(bookListTest);
         Assert.assertEquals("Szósta", book.get().getTitle());
     }
+    //zad 5
+    @Test
+    public void allBooksAfterYear(){
+        boolean allBooksAfterYear = BookFunctions.allBooksAfterYear(bookListTest, 2000);
+        Assert.assertFalse("are all books after" , allBooksAfterYear);
+    }
+    //zad 5
 }

@@ -97,6 +97,17 @@ public class BookFunctions extends Book {
                 .max(Comparator.comparing(Book::getYear));
         return book;
     }
+    //zad 5
+    public static boolean allBooksAfterYear(List<Book> bookList, int yearAfter) {
+        boolean allBooksAferYear = true;
+        for (Book book : bookList) {
+            int year = Integer.parseInt(book.getYear());
+            if (yearAfter > year) {
+                allBooksAferYear = false;
+            }
+        }
+        return allBooksAferYear;
+    }
 }
 
 
