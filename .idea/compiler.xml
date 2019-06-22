@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="biblioteka" />
         <module name="bibliotekaZajecia" />
+        <module name="Księgarnia" />
       </profile>
     </annotationProcessing>
   </component>
